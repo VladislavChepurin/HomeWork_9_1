@@ -11,7 +11,7 @@ internal class Program
         Start(rc);       
     }
 
-    public static void Start(ReadConcole rc)
+    private static void Start(ReadConcole rc)
     {
         try
         {
@@ -28,7 +28,7 @@ internal class Program
         }
     }
 
-    public static void SortSurname(int nunber)
+    private static void SortSurname(int nunber)
     {  
         // Список наиболее частотных фамилий http://imja.name/familii/pyatsot-chastykh-familij.shtml
         string[] surname = new string[] {"Иванов", "Смирнов", "Кузнецов", "Попов", "Васильев"};
