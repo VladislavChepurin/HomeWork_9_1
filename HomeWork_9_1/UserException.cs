@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace HomeWork_9_1;
+﻿namespace HomeWork_9_1;
 
 public class UserException : Exception
 {
